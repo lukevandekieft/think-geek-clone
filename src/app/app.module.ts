@@ -6,6 +6,7 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { FooterBarComponent } from './footer-bar/footer-bar.component';
 import { FooterBarLinksComponent } from './footer-bar-links/footer-bar-links.component';
 import { FooterBarSocialComponent } from './footer-bar-social/footer-bar-social.component';
+import { NavBarMainComponent } from './nav-bar-main/nav-bar-main.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { FooterBarSocialComponent } from './footer-bar-social/footer-bar-social.
     NavBarComponent,
     FooterBarComponent,
     FooterBarLinksComponent,
-    FooterBarSocialComponent
+    FooterBarSocialComponent,
+    NavBarMainComponent
   ],
   imports: [
     BrowserModule

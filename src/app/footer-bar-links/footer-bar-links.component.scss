@@ -1,0 +1,12 @@
+@import "../../styles.scss";
+
+.links-bar {
+  background-color: $offset-bar-background;
+  display: flex;
+}
+
+.links-content {
+  max-width: 1260px;
+  width: 100%;
+  margin: 0 auto;
+}
