@@ -3,9 +3,11 @@
 .nav-bar {
   background-color: $bar-background;
   display: flex;
+
 }
 
 .nav-content {
+
   height: 94px;
   width: 100%;
   max-width: 1140px;
@@ -13,18 +15,19 @@
   margin: 0 auto;
   display: flex;
   position: relative;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   overflow: hidden;
   ul {
     list-style: none;
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
   }
 
   .nav-right-content {
     display: grid;
-    grid-template: auto auto / 90px auto;
+    grid-template: auto 60px / 90px auto;
     width: 420px;
   }
 
@@ -35,9 +38,10 @@
   }
 
   #search-monkey {
+    position: relative;
+    bottom: -10px;
     grid-row: 2 / 3;
     grid-column: 1 / 2;
-    height: 100%;
   }
 
   .discount-offer {
