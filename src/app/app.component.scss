@@ -2,3 +2,15 @@
   margin: 0 0;
   padding: 0 0;
 }
+
+app-nav-bar {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  left: 0px;
+}
+
+app-footer-bar {
+  position: absolute;
+  bottom: 0px;
+}
