@@ -1,7 +1,5 @@
 <div class="shop-links-bar">
   <div class="shop-links-content">
-    <p class="shop-link">
-      shop-links works!
-    </p>
+    <a href="{{currentLink.hyperlink}}" *ngFor="let currentLink of navLinks">{{currentLink.linkName}}</a>
   </div>
 </div>
