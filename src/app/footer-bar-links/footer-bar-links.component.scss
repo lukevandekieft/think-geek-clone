@@ -6,8 +6,12 @@
 }
 
 .links-content {
+  background-image: url(../../assets/images/dragon-slayer.png);
   max-width: 1260px;
   width: 100%;
   margin: 0 auto;
   height: 373px;
+  display: flex;
+  justify-content: center;
+  list-style: none;
 }
