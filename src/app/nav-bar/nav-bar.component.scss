@@ -1,6 +1,25 @@
-div {
+* {
+  margin: 0 0;
+  padding: 0 0;
+}
+
+.nav-bar {
+  background-color: #384245;
+  top: 0;
+  display: flex;
+}
+
+.nav-content {
   height: 94px;
   width: 100%;
+  max-width: 1140px;
   color: #fff;
-  background-color: #384245;
+  margin: 0 auto;
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+  align-items: center;
+  ul {
+    list-style: none;
+  }
 }
