@@ -1,0 +1,19 @@
+@import "../../styles.scss";
+
+.nav-bar-directory {
+  background-color: $dark-background;
+  display: flex;
+  color: $offset-bar-background;
+}
+
+.directory-content {
+  height: 44px;
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}

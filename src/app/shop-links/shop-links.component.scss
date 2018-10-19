@@ -1,0 +1,19 @@
+@import "../../styles.scss";
+
+.shop-links-bar {
+  background-color: $offset-bar-background;
+  display: flex;
+}
+
+.shop-links-content {
+  height: 34px;
+  width: 100%;
+  max-width: 1140px;
+  color: $bar-text-dark2;
+  margin: 0 auto;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}
