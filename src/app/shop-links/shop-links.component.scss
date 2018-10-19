@@ -5,11 +5,22 @@
   display: flex;
 }
 
+a {
+  color: $bar-background;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: helvetica;
+  font-size: 11px;
+}
+
+a:hover {
+  color: black;
+}
+
 .shop-links-content {
   height: 34px;
   width: 100%;
   max-width: 1140px;
-  color: $bar-text-dark2;
   margin: 0 auto;
   display: flex;
   position: relative;
