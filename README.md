@@ -1,27 +1,42 @@
-# ThinkGeek
+# _Think Geek Site Clone_
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.5.
+#### _A clone of everyone's favorite novelty shop, 10/19/18_
 
-## Development server
+#### By _**Luke Vandekieft**_
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Description
 
-## Code scaffolding
+_What's better than yet another novelty mug gift? A novelty mug gift shaped like a Koopa shell! Think Geek is your one-stop gift shop for that special someone who you kind-of know. You may not know what you coworker **needs** but you can say with certainty what they **want**, and that thing is a snack bowl shaped like Chewbacca._
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+_In cloning this site I'm not only paying homage to my go-to Christmas shopping hub but also testing out my chops with Angular & Firebase. Different site components will be displayed in separate components and the final product will be available to view on a site other than GH Pages. If you have any suggestions or commentary on how my use of these tools could be improved I'm all ears!
 
-## Build
+## Setup/Installation Requirements
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+* _Download file from Github._
+      $ git clone https://github.com/lukevandekieft/think-geek-clone.git
+* _Install NPM (node package manager) as needed - instructions can be found at https://www.npmjs.com/get-npm._
+* _Install necessary webpack dependencies for project._
+      $ npm install
+* _Compile and open webpage in developer mode._
+      $ npm run start
 
-## Running unit tests
+{FIX-ME : ideally instructions will be easier when Firebase is deployed next week.}
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Technologies Used
 
-## Running end-to-end tests
+* _Angular Framework_
+* _HTML_
+* _JavaScript_
+* _CSS_
+* _Sass_
+* _Firebase_
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Support and contact details
 
-## Further help
+_If you have any concerns or suggestions please contact Luke Vandekieft at vandekie@gmail.com_
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+### License
+
+*This software is licensed under the MIT License.*
+
+Copyright (c) 2018 **_Luke Vandekieft_**
