@@ -1,10 +1,16 @@
 <div class="links-bar">
   <div class="links-content">
-    <ul>Customer Service</ul>
-      <li><a href="{{currentLink.hyperlink}}" *ngFor="let currentLink of customerLinks">{{currentLink.linkName}}</a></li>
-    <ul>About ThinkGeek</ul>
-      <li><a href="{{currentLink.hyperlink}}" *ngFor="let currentLink of customerLinks">{{currentLink.linkName}}</a></li>
-    <ul>Come to the "Not-So-Dark" Side</ul>
-      <li><a href="{{currentLink.hyperlink}}" *ngFor="let currentLink of customerLinks">{{currentLink.linkName}}</a></li>
+    <div class="">
+      <ul>Customer Service</ul>
+      <li *ngFor="let currentLink of customerLinks"><a href="{{currentLink.hyperlink}}">{{currentLink.linkName}}</a></li>
+    </div>
+    <div class="">
+      <ul>About ThinkGeek</ul>
+      <li *ngFor="let currentLink of aboutLinks"><a href="{{currentLink.hyperlink}}">{{currentLink.linkName}}</a></li>
+    </div>
+    <div class="">
+      <ul>Come to the "Not-So-Dark" Side</ul>
+      <li *ngFor="let currentLink of customerLinks"><a href="{{currentLink.hyperlink}}">{{currentLink.linkName}}</a></li>
+    </div>
   </div>
 </div>
