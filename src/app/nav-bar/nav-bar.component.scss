@@ -1,11 +1,7 @@
-* {
-  margin: 0 0;
-  padding: 0 0;
-}
+@import "../../styles.scss";
 
 .nav-bar {
-  background-color: #384245;
-  top: 0;
+  background-color: $bar-background;
   display: flex;
 }
 
@@ -13,7 +9,7 @@
   height: 94px;
   width: 100%;
   max-width: 1140px;
-  color: #fff;
+  color: $bar-text-light;
   margin: 0 auto;
   display: flex;
   position: relative;
