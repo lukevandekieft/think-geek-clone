@@ -1,0 +1,25 @@
+
+{ "links": {
+    "customerLinks": [{
+      "title": "Returns & Exchanges",
+      "hyperlink": "https://www.thinkgeek.com/help/returns.shtml"
+      }, {
+      "title": "Order Status",
+      "hyperlink": "https://www.thinkgeek.com/brain/account/history.cgi"
+    }],
+    "aboutLinks": [{
+      "title": "About Us",
+      "hyperlink": "https://www.thinkgeek.com/about-us/"
+      }, {
+      "title": "Jobs",
+      "hyperlink": "https://careers.thinkgeek.com/"
+    }],
+    "darkLinks": [{
+      "title": "Account",
+      "hyperlink": "https://www.thinkgeek.com/brain/account/index.cgi"
+      }, {
+      "title": "Order Management",
+      "hyperlink": "https://www.thinkgeek.com/brain/account/history.cgi"
+    }]
+  }
+}
