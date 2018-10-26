@@ -19,13 +19,21 @@ _To visit finished page simply visit the following link:_
           https://thinkgeek-clone.firebaseapp.com/
 <br>
 <br>
-_To down & edit do the following:_
+
+_To download & edit do the following:_
+
 * _Get file from Github._
+
       $ git clone https://github.com/lukevandekieft/think-geek-clone.git
+      
 * _Install NPM (node package manager) as needed - instructions can be found at https://www.npmjs.com/get-npm ._
+
 * _Install necessary webpack dependencies for project._
+
       $ npm install
+      
 * _Compile and open webpage in developer mode._
+
       $ npm run start
 
 
