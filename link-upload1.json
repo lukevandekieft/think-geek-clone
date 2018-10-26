@@ -1,127 +1,156 @@
-{ "links": {
-  "customerLinks": [{
-    "title": "Returns & Exchanges",
-    "hyperlink": "https://www.thinkgeek.com/help/returns.shtml"
-    }, {
-    "title": "Order Status",
-    "hyperlink": "https://www.thinkgeek.com/brain/account/history.cgi"
-    }, {
-    "title": "Shipping",
-    "hyperlink": "https://www.thinkgeek.com/help/shipping.shtml"
-    }, {
-    "title": "Accounts",
-    "hyperlink": "https://www.thinkgeek.com/help/accounts.shtml"
-    }, {
-    "title": "Ordering",
-    "hyperlink": "https://www.thinkgeek.com/help/ordering.shtml"
-    }, {
-    "title": "Size Charts",
-    "hyperlink": "https://www.thinkgeek.com/help/sizing-info.shtml"
-    }, {
-    "title": "Gift Options",
-    "hyperlink": "https://www.thinkgeek.com/help/gifts.shtml"
-    }, {
-    "title": "Gift Cards",
-    "hyperlink": "https://www.thinkgeek.com/brain/order/certificate.cgi"
-    }, {
-    "title": "Gift Card Balance",
-    "hyperlink": "https://www.thinkgeek.com/brain/order/cert_lookup.cgi"
-    }, {
-    "title": "International Orders",
-    "hyperlink": "https://www.thinkgeek.com/help/shipping.shtml/#international-shipping"
-    }, {
-    "title": "Privacy & Security",
-    "hyperlink": "https://www.thinkgeek.com/help/privacy.shtml"
-    }, {
-    "title": "Terms of Use",
-    "hyperlink": "https://www.thinkgeek.com/help/terms-of-use.shtml"
+{
+  "links": {
+    "customerLinks": [{
+      "title": "Returns & Exchanges",
+      "hyperlink": "https://www.thinkgeek.com/help/returns.shtml"
+      }, {
+      "title": "Order Status",
+      "hyperlink": "https://www.thinkgeek.com/brain/account/history.cgi"
+      }, {
+      "title": "Shipping",
+      "hyperlink": "https://www.thinkgeek.com/help/shipping.shtml"
+      }, {
+      "title": "Accounts",
+      "hyperlink": "https://www.thinkgeek.com/help/accounts.shtml"
+      }, {
+      "title": "Ordering",
+      "hyperlink": "https://www.thinkgeek.com/help/ordering.shtml"
+      }, {
+      "title": "Size Charts",
+      "hyperlink": "https://www.thinkgeek.com/help/sizing-info.shtml"
+      }, {
+      "title": "Gift Options",
+      "hyperlink": "https://www.thinkgeek.com/help/gifts.shtml"
+      }, {
+      "title": "Gift Cards",
+      "hyperlink": "https://www.thinkgeek.com/brain/order/certificate.cgi"
+      }, {
+      "title": "Gift Card Balance",
+      "hyperlink": "https://www.thinkgeek.com/brain/order/cert_lookup.cgi"
+      }, {
+      "title": "International Orders",
+      "hyperlink": "https://www.thinkgeek.com/help/shipping.shtml/#international-shipping"
+      }, {
+      "title": "Privacy & Security",
+      "hyperlink": "https://www.thinkgeek.com/help/privacy.shtml"
+      }, {
+      "title": "Terms of Use",
+      "hyperlink": "https://www.thinkgeek.com/help/terms-of-use.shtml"
     }],
-  "aboutLinks": [{
-    "title": "About Us",
-    "hyperlink": "https://www.thinkgeek.com/about-us/"
-    }, {
-    "title": "Jobs",
-    "hyperlink": "https://careers.thinkgeek.com/"
-    }, {
-    "title": "Our Blog",
-    "hyperlink": "https://www.thinkgeek.com/blog/"
-    }, {
-    "title": "Press",
-    "hyperlink": "https://www.thinkgeek.com/help/news-press.shtml"
-    }, {
-    "title": "Contact Us",
-    "hyperlink": "https://www.thinkgeek.com/help/"
-    }, {
-    "title": "Store Locations",
-    "hyperlink": "https://www.thinkgeek.com/help/store-locations/"
-    }, {
-    "title": "Newsletter",
-    "hyperlink": "https://www.thinkgeek.com/newsletter.shtml"
-    }, {
-    "title": "Volume Purchases",
-    "hyperlink": "https://www.thinkgeek.com/volume/"
-    }, {
-    "title": "Affiliates",
-    "hyperlink": "https://www.thinkgeek.com/affiliates/"
-    }, {
-    "title": "Sitemap",
-    "hyperlink": "https://www.thinkgeek.com/site-index/"
+    "aboutLinks": [{
+      "title": "About Us",
+      "hyperlink": "https://www.thinkgeek.com/about-us/"
+      }, {
+      "title": "Jobs",
+      "hyperlink": "https://careers.thinkgeek.com/"
+      }, {
+      "title": "Our Blog",
+      "hyperlink": "https://www.thinkgeek.com/blog/"
+      }, {
+      "title": "Press",
+      "hyperlink": "https://www.thinkgeek.com/help/news-press.shtml"
+      }, {
+      "title": "Contact Us",
+      "hyperlink": "https://www.thinkgeek.com/help/"
+      }, {
+      "title": "Store Locations",
+      "hyperlink": "https://www.thinkgeek.com/help/store-locations/"
+      }, {
+      "title": "Newsletter",
+      "hyperlink": "https://www.thinkgeek.com/newsletter.shtml"
+      }, {
+      "title": "Volume Purchases",
+      "hyperlink": "https://www.thinkgeek.com/volume/"
+      }, {
+      "title": "Affiliates",
+      "hyperlink": "https://www.thinkgeek.com/affiliates/"
+      }, {
+      "title": "Sitemap",
+      "hyperlink": "https://www.thinkgeek.com/site-index/"
     }],
-  "darkLinks": [{
-    "title": "Account",
-    "hyperlink": "https://www.thinkgeek.com/brain/account/index.cgi"
-    }, {
-    "title": "Order Management",
-    "hyperlink": "https://www.thinkgeek.com/brain/account/history.cgi"
-    }, {
-    "title": "Geekpoints",
-    "hyperlink": "https://www.thinkgeek.com/geekpoints/"
-    }, {
-    "title": "Forgot Password",
-    "hyperlink": "https://www.thinkgeek.com/brain/account/passwd.cgi"
-    }, {
-    "title": "Wish Lists",
-    "hyperlink": "https://www.thinkgeek.com/brain/wishes.cgi"
-    }, {
-    "title": "Return Requests",
-    "hyperlink": "https://www.thinkgeek.com/rma/"
-    }, {
-    "title": "Address Book",
-    "hyperlink": "https://www.thinkgeek.com/brain/account/address_book.cgi"
-    }, {
-    "title": "Submit Action Shot",
-    "hyperlink": "https://www.thinkgeek.com/action-shots/"
-    }, {
-    "title": "Timmycam",
-    "hyperlink": "https://www.thinkgeek.com/timmycam/"
+    "darkLinks": [{
+      "title": "Account",
+      "hyperlink": "https://www.thinkgeek.com/brain/account/index.cgi"
+      }, {
+      "title": "Order Management",
+      "hyperlink": "https://www.thinkgeek.com/brain/account/history.cgi"
+      }, {
+      "title": "Geekpoints",
+      "hyperlink": "https://www.thinkgeek.com/geekpoints/"
+      }, {
+      "title": "Forgot Password",
+      "hyperlink": "https://www.thinkgeek.com/brain/account/passwd.cgi"
+      }, {
+      "title": "Wish Lists",
+      "hyperlink": "https://www.thinkgeek.com/brain/wishes.cgi"
+      }, {
+      "title": "Return Requests",
+      "hyperlink": "https://www.thinkgeek.com/rma/"
+      }, {
+      "title": "Address Book",
+      "hyperlink": "https://www.thinkgeek.com/brain/account/address_book.cgi"
+      }, {
+      "title": "Submit Action Shot",
+      "hyperlink": "https://www.thinkgeek.com/action-shots/"
+      }, {
+      "title": "Timmycam",
+      "hyperlink": "https://www.thinkgeek.com/timmycam/"
     }],
-  "shopLinks": [{
-    "title": "What's New",
-    "hyperlink": "https://www.thinkgeek.com/whats-new/"
-    }, {
-    "title": "Bestsellers",
-    "hyperlink": "https://www.thinkgeek.com/bestsellers/"
-    }, {
-    "title": "Exclusives",
-    "hyperlink": "https://www.thinkgeek.com/interests/exclusives/"
-    }, {
-    "title": "Gifts",
-    "hyperlink": "https://www.thinkgeek.com/gifts/"
-    }, {
-    "title": "Timmy's Last Call",
-    "hyperlink": "https://www.thinkgeek.com/interests/timmys-last-call"
-    }, {
-    "title": "T-Shirts",
-    "hyperlink": "https://www.thinkgeek.com/clothing/t-shirts/"
-    }, {
-    "title": "Collectible",
-    "hyperlink": "https://www.thinkgeek.com/collectibles/"
-    }, {
-    "title": "Geekpoints",
-    "hyperlink": "https://www.thinkgeek.com/geekpoints/"
-    }, {
-    "title": "On Sale",
-    "hyperlink": "https://www.thinkgeek.com/clearance/on-sale//"
+    "shopLinks": [{
+      "title": "What's New",
+      "hyperlink": "https://www.thinkgeek.com/whats-new/"
+      }, {
+      "title": "Bestsellers",
+      "hyperlink": "https://www.thinkgeek.com/bestsellers/"
+      }, {
+      "title": "Exclusives",
+      "hyperlink": "https://www.thinkgeek.com/interests/exclusives/"
+      }, {
+      "title": "Gifts",
+      "hyperlink": "https://www.thinkgeek.com/gifts/"
+      }, {
+      "title": "Timmy's Last Call",
+      "hyperlink": "https://www.thinkgeek.com/interests/timmys-last-call"
+      }, {
+      "title": "T-Shirts",
+      "hyperlink": "https://www.thinkgeek.com/clothing/t-shirts/"
+      }, {
+      "title": "Collectible",
+      "hyperlink": "https://www.thinkgeek.com/collectibles/"
+      }, {
+      "title": "Geekpoints",
+      "hyperlink": "https://www.thinkgeek.com/geekpoints/"
+      }, {
+      "title": "On Sale",
+      "hyperlink": "https://www.thinkgeek.com/clearance/on-sale/"
+    }]
+  },
+  "shopping": {
+    "categories": [{
+      "category": "Clothing",
+      "image": {
+        "filePath": "../../assets/images/cosplay.jpg",
+        "altText": "Fantastic Beasts Cosplay Outfit"
+      },
+      "links": [{
+        "title": "T-shirts",
+        "hyperlink": "https://www.thinkgeek.com/clothing/t-shirts/"
+        }, {
+        "title": "Tank Tops & Fitted Tees",
+        "hyperlink": "https://www.thinkgeek.com/clothing/tank-tops-fitted-tees/"
+        }, {
+        "title": "Polos & Button-Ups",
+        "hyperlink": "https://www.thinkgeek.com/clothing/polos-button-ups/"
+        }, {
+        "title": "Women's Tops",
+        "hyperlink": "https://www.thinkgeek.com/clothing/womens-tops/"
+        }, {
+        "title": "Dresses & Skirts",
+        "hyperlink": "https://www.thinkgeek.com/clothing/dresses-skirts/"
+        }, {
+        "title": "View All",
+        "hyperlink": "https://www.thinkgeek.com/clothing/"
+      }]
     }]
   }
 }
