@@ -8,18 +8,27 @@ import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/databa
 })
 export class DatabaseService {
   links: FirebaseListObservable<any[]>;
+  aboutLinks: FirebaseListObservable<any[]>;
+  customerLinks: FirebaseListObservable<any[]>;
+  darkLinks: FirebaseListObservable<any[]>;
 
   constructor(private database: AngularFireDatabase) {
     this.links = database.list('links')
+    this.aboutLinks = database.list('links/aboutLinks');
+    this.customerLinks = database.list('links/customerLinks');
+    this.darkLinks = database.list('links/darkLinks');
   }
-  getLinks3() {
-    return customerLinks;
+
+  getCustomerLinks() {
+    return this.customerLinks;
   }
-  getLinks1() {
-    return aboutLinks;
+
+  getAboutLinks() {
+    return this.aboutLinks;
   }
-  getLinks2() {
-    return darkLinks;
+
+  getDarkLinks() {
+    return this.darkLinks;
   }
 
   getLinks() {

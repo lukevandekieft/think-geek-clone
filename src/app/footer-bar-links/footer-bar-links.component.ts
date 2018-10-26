@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { DatabaseService } from '../database.service';
-import { FirebaseListObservable } from 'angularfire2/database';
+import { FirebaseListObservable, FirebaseObjectObservable } from 'angularfire2/database';
 
 import { Link } from '../models/link.model';
 
@@ -13,19 +13,19 @@ import { Link } from '../models/link.model';
 export class FooterBarLinksComponent implements OnInit {
 
   log(arg) {console.log(arg);}
-  customerLinks: Link[];
-  aboutLinks: Link[] = [];
-  darkLinks: Link[] = [];
+  customerLinks: FirebaseListObservable<any[]>;
+  aboutLinks: FirebaseListObservable<any[]>;
+  darkLinks: FirebaseListObservable<any[]>;
   links: FirebaseListObservable<any[]>;
 
   constructor(private databaseService: DatabaseService) { }
 
   ngOnInit() {
-    this.customerLinks = this.databaseService.getLinks3();
     this.links = this.databaseService.getLinks();
-    this.links.subscribe(res => console.log(res[0]));
-    this.aboutLinks = this.databaseService.getLinks1();
-    this.darkLinks = this.databaseService.getLinks2();
+    this.links.subscribe(res => console.log(res));
+    this.aboutLinks = this.databaseService.getAboutLinks();
+    this.customerLinks = this.databaseService.getCustomerLinks();
+    this.darkLinks = this.databaseService.getDarkLinks();
   }
 
 }
