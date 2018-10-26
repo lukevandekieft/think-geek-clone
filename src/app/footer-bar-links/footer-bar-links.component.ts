@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { DatabaseService } from '../database.service';
-import { FirebaseListObservable, FirebaseObjectObservable } from 'angularfire2/database';
+import { FirebaseListObservable } from 'angularfire2/database';
 
 import { Link } from '../models/link.model';
 
@@ -12,7 +12,6 @@ import { Link } from '../models/link.model';
 })
 export class FooterBarLinksComponent implements OnInit {
 
-  log(arg) {console.log(arg);}
   customerLinks: FirebaseListObservable<any[]>;
   aboutLinks: FirebaseListObservable<any[]>;
   darkLinks: FirebaseListObservable<any[]>;

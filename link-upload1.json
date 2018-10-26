@@ -94,6 +94,34 @@
     }, {
     "title": "Timmycam",
     "hyperlink": "https://www.thinkgeek.com/timmycam/"
+    }],
+  "shopLinks": [{
+    "title": "What's New",
+    "hyperlink": "https://www.thinkgeek.com/whats-new/"
+    }, {
+    "title": "Bestsellers",
+    "hyperlink": "https://www.thinkgeek.com/bestsellers/"
+    }, {
+    "title": "Exclusives",
+    "hyperlink": "https://www.thinkgeek.com/interests/exclusives/"
+    }, {
+    "title": "Gifts",
+    "hyperlink": "https://www.thinkgeek.com/gifts/"
+    }, {
+    "title": "Timmy's Last Call",
+    "hyperlink": "https://www.thinkgeek.com/interests/timmys-last-call"
+    }, {
+    "title": "T-Shirts",
+    "hyperlink": "https://www.thinkgeek.com/clothing/t-shirts/"
+    }, {
+    "title": "Collectible",
+    "hyperlink": "https://www.thinkgeek.com/collectibles/"
+    }, {
+    "title": "Geekpoints",
+    "hyperlink": "https://www.thinkgeek.com/geekpoints/"
+    }, {
+    "title": "On Sale",
+    "hyperlink": "https://www.thinkgeek.com/clearance/on-sale//"
     }]
   }
 }

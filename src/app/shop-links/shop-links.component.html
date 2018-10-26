@@ -1,5 +1,5 @@
 <div class="shop-links-bar">
   <div class="shop-links-content">
-    <a href="{{currentLink.hyperlink}}" *ngFor="let currentLink of navLinks">{{currentLink.linkName}}</a>
+    <a href="{{currentLink.hyperlink}}" *ngFor="let currentLink of shopLinks | async">{{currentLink.title}}</a>
   </div>
 </div>
