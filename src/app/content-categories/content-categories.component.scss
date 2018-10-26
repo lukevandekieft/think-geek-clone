@@ -1,7 +1,11 @@
 @import "../../styles.scss";
 
+.category-section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .category-object {
-  margin: 30px;
   list-style: none;
   a {
     text-decoration: none;
@@ -18,7 +22,7 @@
     text-decoration: underline;
   }
   img {
-    max-height: 351px;
+    height: 351px;
   }
   p {
     position: relative;

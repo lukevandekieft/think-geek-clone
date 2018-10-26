@@ -125,6 +125,8 @@
       "hyperlink": "https://www.thinkgeek.com/clearance/on-sale/"
     }]
   },
+
+
   "categories": [{
     "category": "Clothing",
     "image": {
@@ -151,6 +153,7 @@
       "hyperlink": "https://www.thinkgeek.com/clothing/"
     }]
   }, {
+
     "category": "Accessories",
     "image": {
       "filePath": "../../assets/images/jewelry.jpg",
@@ -176,29 +179,179 @@
       "hyperlink": "https://www.thinkgeek.com/accessories/"
     }]
   }, {
-    "category": "",
+
+    "category": "Bags & Backpacks",
     "image": {
-      "filePath": "../../assets/images/.jpg",
-      "altText": ""
+      "filePath": "../../assets/images/bags.jpg",
+      "altText": "Pokemon Purse and Wallet on a Young Woman"
     },
     "links": [{
-      "title": "",
-      "hyperlink": ""
+      "title": "Backpacks",
+      "hyperlink": "https://www.thinkgeek.com/bags-backpacks/backpacks/"
       }, {
-      "title": "",
-      "hyperlink": ""
+      "title": "Messenger Bags",
+      "hyperlink": "https://www.thinkgeek.com/bags-backpacks/messenger-bags/"
       }, {
-      "title": "",
-      "hyperlink": ""
+      "title": "Laptop Bags",
+      "hyperlink": "https://www.thinkgeek.com/bags-backpacks/laptop-bags/"
       }, {
-      "title": "",
-      "hyperlink": ""
+      "title": "Luggage & Travel Bags",
+      "hyperlink": "https://www.thinkgeek.com/bags-backpacks/luggage-travel-bags/"
       }, {
-      "title": "",
-      "hyperlink": ""
+      "title": "Lunch Boxes",
+      "hyperlink": "https://www.thinkgeek.com/bags-backpacks/lunch-boxes/"
       }, {
-      "title": "",
-      "hyperlink": ""
+      "title": "View All",
+      "hyperlink": "https://www.thinkgeek.com/bags-backpacks/"
+    }]
+  }, {
+
+    "category": "Home and Office",
+    "image": {
+      "filePath": "../../assets/images/home.jpg",
+      "altText": "Star Wars Tiki Mugs in Rustic Home"
+    },
+    "links": [{
+      "title": "Kitchen & Dining",
+      "hyperlink": "https://www.thinkgeek.com/home-office/kitchen-dining/"
+      }, {
+      "title": "Home Decor",
+      "hyperlink": "https://www.thinkgeek.com/home-office/home-decor/"
+      }, {
+      "title": "Office",
+      "hyperlink": "https://www.thinkgeek.com/home-office/office/"
+      }, {
+      "title": "View All",
+      "hyperlink": "https://www.thinkgeek.com/home-office/"
+    }]
+  }, {
+
+    "category": "Toys & Games",
+    "image": {
+      "filePath": "../../assets/images/toys.jpg",
+      "altText": "Woman Obsessing Over Dog Plushes"
+    },
+    "links": [{
+      "title": "Action Figures",
+      "hyperlink": "https://www.thinkgeek.com/toys-games/action-figures/"
+      }, {
+      "title": "Costumes & Cosplay Accessories",
+      "hyperlink": "https://www.thinkgeek.com/toys-games/costume-cosplay-accessories/"
+      }, {
+      "title": "R/C Toys",
+      "hyperlink": "https://www.thinkgeek.com/toys-games/rc-toys/"
+      }, {
+      "title": "Board Games & Tabletop",
+      "hyperlink": "https://www.thinkgeek.com/toys-games/board-games-tabletop/"
+      }, {
+      "title": "Party & Card Games",
+      "hyperlink": "https://www.thinkgeek.com/toys-games/party-card-games/"
+      }, {
+      "title": "View All",
+      "hyperlink": "https://www.thinkgeek.com/toys-games/"
+    }]
+  }, {
+
+    "category": "Collectibles",
+    "image": {
+      "filePath": "../../assets/images/collectibles.jpg",
+      "altText": "Arm Widget-Thing from Fallout 4"
+    },
+    "links": [{
+      "title": "Vinyl Figures",
+      "hyperlink": "https://www.thinkgeek.com/collectibles/vinyl-figures/"
+      }, {
+      "title": "Scale Figures & Statues",
+      "hyperlink": "https://www.thinkgeek.com/collectibles/scale-figures-statues/"
+      }, {
+      "title": "Prop Replicas",
+      "hyperlink": "https://www.thinkgeek.com/collectibles/prop-replicas/"
+      }, {
+      "title": "Pins & Patches",
+      "hyperlink": "https://www.thinkgeek.com/collectibles/pins-patches/"
+      }, {
+      "title": "Funko POP! Vinyl",
+      "hyperlink": "https://www.thinkgeek.com/interests/funko-pop-vinyl/"
+      }, {
+      "title": "View All",
+      "hyperlink": "https://www.thinkgeek.com/collectibles/"
+    }]
+  }, {
+
+    "category": "Tools, Outdoor & Survival",
+    "image": {
+      "filePath": "../../assets/images/garden.jpg",
+      "altText": "Godzilla Eating Helpless Garden Gnomes"
+    },
+    "links": [{
+      "title": "Knives, Swords, & Axes",
+      "hyperlink": "https://www.thinkgeek.com/tools-outdoor-survival/knives-swords-axes/"
+      }, {
+      "title": "Survival & Camping Gear",
+      "hyperlink": "https://www.thinkgeek.com/tools-outdoor-survival/survival-camping-gear/"
+      }, {
+      "title": "Geek Tools",
+      "hyperlink": "https://www.thinkgeek.com/tools-outdoor-survival/geek-tools/"
+      }, {
+      "title": "Outdoor & Backyard Fun",
+      "hyperlink": "https://www.thinkgeek.com/tools-outdoor-survival/outdoor-backyard-fun/"
+      }, {
+      "title": "Car Gadgets & Accessories",
+      "hyperlink": "https://www.thinkgeek.com/tools-outdoor-survival/car-gadgets-accessories/"
+      }, {
+      "title": "View All",
+      "hyperlink": "https://www.thinkgeek.com/tools-outdoor-survival/"
+    }]
+  }, {
+
+    "category": "Electronics & Gadgets",
+    "image": {
+      "filePath": "../../assets/images/electronics.jpg",
+      "altText": "Stackable Tetris Lamp"
+    },
+    "links": [{
+      "title": "Computer & PC Gaming Accessories",
+      "hyperlink": "https://www.thinkgeek.com/electronics-gadgets/computer-accessories/"
+      }, {
+      "title": "Console & Portable Gaming",
+      "hyperlink": "https://www.thinkgeek.com/electronics-gadgets/console-portable-gaming/"
+      }, {
+      "title": "Camera, Photo, & Video",
+      "hyperlink": "https://www.thinkgeek.com/electronics-gadgets/camera-photo-video/"
+      }, {
+      "title": "Speakers, Headphones, & Audio",
+      "hyperlink": "https://www.thinkgeek.com/electronics-gadgets/speakers-headphones-audio/"
+      }, {
+      "title": "Lights & Lasers",
+      "hyperlink": "https://www.thinkgeek.com/electronics-gadgets/lights-lasers/"
+      }, {
+      "title": "View All",
+      "hyperlink": "https://www.thinkgeek.com/electronics-gadgets/"
+    }]
+  }, {
+    "category": "Geek Kids",
+    "image": {
+      "filePath": "../../assets/images/kids.jpg",
+      "altText": "Girl Wearing Large Eevee Backpack"
+    },
+    "links": [{
+      "title": "Newborn & Infant",
+      "hyperlink": "https://www.thinkgeek.com/geek-kids/newborn-infant/"
+      }, {
+      "title": "Toddler",
+      "hyperlink": "https://www.thinkgeek.com/geek-kids/toddler/"
+      }, {
+      "title": "3-7 Years",
+      "hyperlink": "https://www.thinkgeek.com/geek-kids/3-7-years/"
+      }, {
+      "title": "7-13 Years",
+      "hyperlink": "https://www.thinkgeek.com/geek-kids/7-13-years/"
+      }, {
+      "title": "Clothing",
+      "hyperlink": "https://www.thinkgeek.com/geek-kids/geek-kids-clothing/"
+      }, {
+      "title": "View All",
+      "hyperlink": "https://www.thinkgeek.com/geek-kids/"
     }]
   }]
 }
