@@ -3,12 +3,31 @@
 .social-bar {
   background-color: $bar-background;
   display: flex;
+  height: 171px;
+  align-items: center;
 }
 
 .social-content {
   max-width: $main-body-width;
   width: 100%;
   margin: 0 auto;
-  height: 171px;
+  height: 91px;
   color: $offset-bar-background;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 310px;
+}
+
+.social {
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: block;
+  background: $offset-bar-background;
+  img {
+    height: 100%;
+  }
 }
