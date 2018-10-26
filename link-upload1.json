@@ -125,32 +125,30 @@
       "hyperlink": "https://www.thinkgeek.com/clearance/on-sale/"
     }]
   },
-  "shopping": {
-    "categories": [{
-      "category": "Clothing",
-      "image": {
-        "filePath": "../../assets/images/cosplay.jpg",
-        "altText": "Fantastic Beasts Cosplay Outfit"
-      },
-      "links": [{
-        "title": "T-shirts",
-        "hyperlink": "https://www.thinkgeek.com/clothing/t-shirts/"
-        }, {
-        "title": "Tank Tops & Fitted Tees",
-        "hyperlink": "https://www.thinkgeek.com/clothing/tank-tops-fitted-tees/"
-        }, {
-        "title": "Polos & Button-Ups",
-        "hyperlink": "https://www.thinkgeek.com/clothing/polos-button-ups/"
-        }, {
-        "title": "Women's Tops",
-        "hyperlink": "https://www.thinkgeek.com/clothing/womens-tops/"
-        }, {
-        "title": "Dresses & Skirts",
-        "hyperlink": "https://www.thinkgeek.com/clothing/dresses-skirts/"
-        }, {
-        "title": "View All",
-        "hyperlink": "https://www.thinkgeek.com/clothing/"
-      }]
+  "categories": [{
+    "category": "Clothing",
+    "image": {
+      "filePath": "../../assets/images/cosplay.jpg",
+      "altText": "Fantastic Beasts Cosplay Outfit"
+    },
+    "links": [{
+      "title": "T-shirts",
+      "hyperlink": "https://www.thinkgeek.com/clothing/t-shirts/"
+      }, {
+      "title": "Tank Tops & Fitted Tees",
+      "hyperlink": "https://www.thinkgeek.com/clothing/tank-tops-fitted-tees/"
+      }, {
+      "title": "Polos & Button-Ups",
+      "hyperlink": "https://www.thinkgeek.com/clothing/polos-button-ups/"
+      }, {
+      "title": "Women's Tops",
+      "hyperlink": "https://www.thinkgeek.com/clothing/womens-tops/"
+      }, {
+      "title": "Dresses & Skirts",
+      "hyperlink": "https://www.thinkgeek.com/clothing/dresses-skirts/"
+      }, {
+      "title": "View All",
+      "hyperlink": "https://www.thinkgeek.com/clothing/"
     }]
-  }
+  }]
 }

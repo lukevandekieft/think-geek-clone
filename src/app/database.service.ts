@@ -12,32 +12,35 @@ export class DatabaseService {
   darkLinks: FirebaseListObservable<any[]>;
   shopLinks: FirebaseListObservable<any[]>;
 
+  categories: FirebaseListObservable<any[]>;
+
   constructor(private database: AngularFireDatabase) {
     this.links = database.list('links')
     this.aboutLinks = database.list('links/aboutLinks');
     this.customerLinks = database.list('links/customerLinks');
     this.darkLinks = database.list('links/darkLinks');
     this.shopLinks = database.list('links/shopLinks');
+
+    this.categories = database.list('categories');
   }
 
   getLinks() {
     return this.links;
   }
-
   getAboutLinks() {
     return this.aboutLinks;
   }
-
   getCustomerLinks() {
     return this.customerLinks;
   }
-
   getDarkLinks() {
     return this.darkLinks;
   }
-
   getShopLinks() {
     return this.shopLinks;
   }
 
+  getCategories() {
+    return this.categories;
+  }
 }

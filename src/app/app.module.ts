@@ -13,6 +13,7 @@ import { NavBarMainComponent } from './nav-bar-main/nav-bar-main.component';
 import { NavBarDirectoryComponent } from './nav-bar-directory/nav-bar-directory.component';
 import { ShopLinksComponent } from './shop-links/shop-links.component';
 import { ContentComponent } from './content/content.component';
+import { ContentCategoriesComponent } from './content-categories/content-categories.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -31,7 +32,8 @@ export const firebaseConfig = {
     NavBarMainComponent,
     NavBarDirectoryComponent,
     ShopLinksComponent,
-    ContentComponent
+    ContentComponent,
+    ContentCategoriesComponent
   ],
   imports: [
     BrowserModule,

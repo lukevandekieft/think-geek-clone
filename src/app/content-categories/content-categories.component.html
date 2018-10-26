@@ -1,0 +1,7 @@
+<div class="links-bar">
+  <div class="links-content">
+    <div *ngFor="let currentCategory of categories | async">
+      <img src="{{currentCategory.image.filePath}}" alt="{{currentCategory.image.altText}}">
+    </div>
+  </div>
+</div>
