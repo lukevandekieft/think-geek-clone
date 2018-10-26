@@ -49,9 +49,9 @@
   }
 
   #search-monkey {
-    position: relative;
+    position: absolute;
     z-index: 10;
-    bottom: -20px;
+    bottom: -15px;
     grid-row: 2 / 3;
     grid-column: 1 / 2;
   }

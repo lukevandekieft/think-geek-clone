@@ -5,21 +5,27 @@
   display: flex;
 }
 
+.background {
+    background-image: url(../../assets/images/dragon-slayer.png);
+    max-width: 1260px;
+    width: 100%;
+    margin: 0 auto;
+    height: 373px;
+}
+
 .links-content {
-  background-image: url(../../assets/images/dragon-slayer.png);
-  max-width: 1260px;
   width: 100%;
-  margin: 0 auto;
-  height: 373px;
+  height: 100%;
+  margin-left: 60px;
   display: flex;
   justify-content: center;
   list-style: none;
   line-height: 1.7em;
   div {
-    margin: 0 20px;
+    margin: 10px 20px;
   }
   ul {
-    padding: 0;
+    padding: 20px 0;
     list-style-type: none;
     font-size: 1.5em;
   }
