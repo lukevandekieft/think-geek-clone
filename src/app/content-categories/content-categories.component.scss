@@ -1,0 +1,32 @@
+@import "../../styles.scss";
+
+.category-object {
+  margin: 30px;
+  list-style: none;
+  a {
+    text-decoration: none;
+    color: $content-links;
+    line-height: 2em;
+    font-size: .9em;
+  }
+  li:last-child {
+    a {
+      color: $bar-background;
+    }
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  img {
+    max-height: 351px;
+  }
+  p {
+    position: relative;
+    top: -40px;
+    left: 15px;
+    font-size: 1.4em;
+    font-weight: 900px;
+    color: $bar-text-light;
+    text-transform: uppercase;
+  }
+}

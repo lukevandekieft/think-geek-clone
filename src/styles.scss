@@ -7,13 +7,9 @@ $offset-bar-background: #dee4e7;
 $bar-text-dark: rgba(255,255,255,.35);
 $bar-text-dark2: #617179;
 $footer-links: #517DB0;
+$content-links: #48a9e0;
 $main-body-width: 1140px;
 
-// @mixin fontStyling() {
-//   text-transform: uppercase;
-//   font-family: 'Lato', helvetica;
-//   font-size: 11px;
-// }
 
 //Page-wide stylings
 
@@ -32,6 +28,7 @@ body {
   bottom: 0;
   overflow-x: hidden;
   margin: 0 auto;
+  font-family: 'Lato', helvetica;
 }
 
 app-nav-bar {
@@ -39,7 +36,6 @@ app-nav-bar {
   top: 0px;
   width: 100%;
   text-transform: uppercase;
-  font-family: 'Lato', helvetica;
   font-size: 11px;
 }
 
@@ -53,11 +49,21 @@ app-nav-bar-directory {
   z-index: 5;
 }
 
+app-content {
+  display: block;
+  margin: 0 auto;
+  max-width: $main-body-width;
+}
+
+app-content-categories {
+  margin: 0 auto;
+  width: 100%;
+}
+
 app-footer-bar {
   position: relative;
   width: 100%;
   bottom: 0px;
   text-transform: uppercase;
-  font-family: 'Lato', helvetica;
   font-size: 11px;
 }

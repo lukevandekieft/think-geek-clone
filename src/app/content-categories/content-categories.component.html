@@ -1,7 +1,7 @@
-<div class="links-bar">
-  <div class="links-content">
-    <div *ngFor="let currentCategory of categories | async">
-      <img src="{{currentCategory.image.filePath}}" alt="{{currentCategory.image.altText}}">
-    </div>
+<div class="category-section">
+  <div *ngFor="let currentCategory of categories | async" class="category-object">
+    <img src="{{currentCategory.image.filePath}}" alt="{{currentCategory.image.altText}}">
+    <p>{{currentCategory.category}}</p>
+    <li *ngFor="let currentLink of currentCategory.links"><a href="{{currentLink.hyperlink}}">{{currentLink.title}}</a></li>
   </div>
 </div>
