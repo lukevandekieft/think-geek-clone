@@ -132,7 +132,7 @@
       "altText": "Fantastic Beasts Cosplay Outfit"
     },
     "links": [{
-      "title": "T-shirts",
+      "title": "T-Shirts",
       "hyperlink": "https://www.thinkgeek.com/clothing/t-shirts/"
       }, {
       "title": "Tank Tops & Fitted Tees",
@@ -149,6 +149,56 @@
       }, {
       "title": "View All",
       "hyperlink": "https://www.thinkgeek.com/clothing/"
+    }]
+  }, {
+    "category": "Accessories",
+    "image": {
+      "filePath": "../../assets/images/jewelry.jpg",
+      "altText": "Galaxy Necklace on Woman"
+    },
+    "links": [{
+      "title": "Jewelry",
+      "hyperlink": "https://www.thinkgeek.com/accessories/jewelry/"
+      }, {
+      "title": "Footwear",
+      "hyperlink": "https://www.thinkgeek.com/accessories/footwear/"
+      }, {
+      "title": "Keychains & Bag Accessories",
+      "hyperlink": "https://www.thinkgeek.com/accessories/keychains/"
+      }, {
+      "title": "Wallets",
+      "hyperlink": "https://www.thinkgeek.com/accessories/wallets/"
+      }, {
+      "title": "Hats & Hair",
+      "hyperlink": "https://www.thinkgeek.com/accessories/hats-hair/"
+      }, {
+      "title": "View All",
+      "hyperlink": "https://www.thinkgeek.com/accessories/"
+    }]
+  }, {
+    "category": "",
+    "image": {
+      "filePath": "../../assets/images/.jpg",
+      "altText": ""
+    },
+    "links": [{
+      "title": "",
+      "hyperlink": ""
+      }, {
+      "title": "",
+      "hyperlink": ""
+      }, {
+      "title": "",
+      "hyperlink": ""
+      }, {
+      "title": "",
+      "hyperlink": ""
+      }, {
+      "title": "",
+      "hyperlink": ""
+      }, {
+      "title": "",
+      "hyperlink": ""
     }]
   }]
 }
