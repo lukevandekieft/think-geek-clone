@@ -10,9 +10,17 @@ _What's better than yet another novelty mug gift? A novelty mug gift shaped like
 
 _In cloning this site I'm not only paying homage to my go-to Christmas shopping hub but also testing out my chops with Angular & Firebase. Different site components will be displayed in separate components and the final product will be available to view on a site other than GH Pages. If you have any suggestions or commentary on how my use of these tools could be improved I'm all ears!_
 
+![Site Overview](src/assets/images/siterun.gif)
+
 ## Setup/Installation Requirements
 
-* _Download file from Github._
+_To visit finished page simply visit the following link:_
+
+          https://thinkgeek-clone.firebaseapp.com/
+<br>
+<br>
+_To down & edit do the following:_
+* _Get file from Github._
       $ git clone https://github.com/lukevandekieft/think-geek-clone.git
 * _Install NPM (node package manager) as needed - instructions can be found at https://www.npmjs.com/get-npm ._
 * _Install necessary webpack dependencies for project._
@@ -20,17 +28,26 @@ _In cloning this site I'm not only paying homage to my go-to Christmas shopping 
 * _Compile and open webpage in developer mode._
       $ npm run start
 
-{FIX-ME : ideally instructions will be easier when Firebase is deployed next week.}
 
-## Planned Specs
+## Specs
 
-* _Page shows at least 4 different components that reach the user display separately (nav bar, bottom bar, various shopping sections as time allows)._
-* _Shopping component content comes from database rather than statically saved images._
-* _Shopping component content changes dynamically as database info changes._
 * _Site is deployed to Firebase and can be readily viewed there._
-* _Components accurately reflect original page stylings (hovers, drop downs, etc.). These styles are separated into different stylesheets in a best practice manner._
-* _Stretch goal: page hyperlinks actually lead somewhere, such as the actual site and/or sale items._
+
+* _Page contains various Angular components that populate and nest independently (navbar, content, & footer bar, all with sub-components)._
+
+* _Shopping & link content come primarily from Firebase rather than statically saved images & info._
+
+* _Links and image references can change dynamically based on database info._
+
+* _Components stack and interact appropriately, with Sass variables and local CSS applied at the correct levels._
+
+* _All page hyperlinks are active and lead to original site destinations. These hyperlinks are stored and organized on Firebase._
+
 * _Stretch goal: have functioning social media links in bottom bar and Instagram sections._
+
+* _Stretch goal: add more content to the shopping section._
+
+* _Stretch goal: make functioning search bar._
 
 ## Technologies Used
 
