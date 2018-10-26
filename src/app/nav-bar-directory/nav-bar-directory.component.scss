@@ -4,7 +4,8 @@
   background-color: $dark-background;
   display: flex;
   color: $offset-bar-background;
-
+  position: relative;
+  z-index: 5;
 }
 
 .directory-content {
@@ -17,4 +18,5 @@
   justify-content: space-between;
   align-items: center;
   overflow: hidden;
+  z-index: 5;
 }
