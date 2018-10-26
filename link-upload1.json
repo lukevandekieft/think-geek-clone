@@ -37,6 +37,7 @@
       "title": "Terms of Use",
       "hyperlink": "https://www.thinkgeek.com/help/terms-of-use.shtml"
     }],
+
     "aboutLinks": [{
       "title": "About Us",
       "hyperlink": "https://www.thinkgeek.com/about-us/"
@@ -68,6 +69,7 @@
       "title": "Sitemap",
       "hyperlink": "https://www.thinkgeek.com/site-index/"
     }],
+
     "darkLinks": [{
       "title": "Account",
       "hyperlink": "https://www.thinkgeek.com/brain/account/index.cgi"
@@ -96,6 +98,7 @@
       "title": "Timmycam",
       "hyperlink": "https://www.thinkgeek.com/timmycam/"
     }],
+
     "shopLinks": [{
       "title": "What's New",
       "hyperlink": "https://www.thinkgeek.com/whats-new/"
@@ -131,7 +134,8 @@
     "category": "Clothing",
     "image": {
       "filePath": "../../assets/images/cosplay.jpg",
-      "altText": "Fantastic Beasts Cosplay Outfit"
+      "altText": "Fantastic Beasts Cosplay Outfit",
+      "hyperlink": "https://www.thinkgeek.com/clothing/"
     },
     "links": [{
       "title": "T-Shirts",
@@ -157,7 +161,8 @@
     "category": "Accessories",
     "image": {
       "filePath": "../../assets/images/jewelry.jpg",
-      "altText": "Galaxy Necklace on Woman"
+      "altText": "Galaxy Necklace on Woman",
+      "hyperlink": "https://www.thinkgeek.com/accessories/"
     },
     "links": [{
       "title": "Jewelry",
@@ -183,7 +188,8 @@
     "category": "Bags & Backpacks",
     "image": {
       "filePath": "../../assets/images/bags.jpg",
-      "altText": "Pokemon Purse and Wallet on a Young Woman"
+      "altText": "Pokemon Purse and Wallet on a Young Woman",
+      "hyperlink": "https://www.thinkgeek.com/bags-backpacks/"
     },
     "links": [{
       "title": "Backpacks",
@@ -209,7 +215,8 @@
     "category": "Home and Office",
     "image": {
       "filePath": "../../assets/images/home.jpg",
-      "altText": "Star Wars Tiki Mugs in Rustic Home"
+      "altText": "Star Wars Tiki Mugs in Rustic Home",
+      "hyperlink": "https://www.thinkgeek.com/home-office/"
     },
     "links": [{
       "title": "Kitchen & Dining",
@@ -229,7 +236,8 @@
     "category": "Toys & Games",
     "image": {
       "filePath": "../../assets/images/toys.jpg",
-      "altText": "Woman Obsessing Over Dog Plushes"
+      "altText": "Woman Obsessing Over Dog Plushes",
+      "hyperlink": "https://www.thinkgeek.com/toys-games/"
     },
     "links": [{
       "title": "Action Figures",
@@ -255,7 +263,8 @@
     "category": "Collectibles",
     "image": {
       "filePath": "../../assets/images/collectibles.jpg",
-      "altText": "Arm Widget-Thing from Fallout 4"
+      "altText": "Arm Widget-Thing from Fallout 4",
+      "hyperlink": "https://www.thinkgeek.com/collectibles/"
     },
     "links": [{
       "title": "Vinyl Figures",
@@ -281,7 +290,8 @@
     "category": "Tools, Outdoor & Survival",
     "image": {
       "filePath": "../../assets/images/garden.jpg",
-      "altText": "Godzilla Eating Helpless Garden Gnomes"
+      "altText": "Godzilla Eating Helpless Garden Gnomes",
+      "hyperlink": "https://www.thinkgeek.com/tools-outdoor-survival/"
     },
     "links": [{
       "title": "Knives, Swords, & Axes",
@@ -307,7 +317,8 @@
     "category": "Electronics & Gadgets",
     "image": {
       "filePath": "../../assets/images/electronics.jpg",
-      "altText": "Stackable Tetris Lamp"
+      "altText": "Stackable Tetris Lamp",
+      "hyperlink": "https://www.thinkgeek.com/electronics-gadgets/"
     },
     "links": [{
       "title": "Computer & PC Gaming Accessories",
@@ -332,7 +343,8 @@
     "category": "Geek Kids",
     "image": {
       "filePath": "../../assets/images/kids.jpg",
-      "altText": "Girl Wearing Large Eevee Backpack"
+      "altText": "Girl Wearing Large Eevee Backpack",
+      "hyperlink": "https://www.thinkgeek.com/geek-kids/"
     },
     "links": [{
       "title": "Newborn & Infant",

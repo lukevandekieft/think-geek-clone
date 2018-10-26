@@ -1,7 +1,7 @@
 <div class="category-section">
   <div *ngFor="let currentCategory of categories | async" class="category-object">
-    <img src="{{currentCategory.image.filePath}}" alt="{{currentCategory.image.altText}}">
     <p>{{currentCategory.category}}</p>
+    <a href="{{currentCategory.image.hyperlink}}"><img src="{{currentCategory.image.filePath}}" alt="{{currentCategory.image.altText}}"></a>
     <li *ngFor="let currentLink of currentCategory.links"><a href="{{currentLink.hyperlink}}">{{currentLink.title}}</a></li>
   </div>
 </div>

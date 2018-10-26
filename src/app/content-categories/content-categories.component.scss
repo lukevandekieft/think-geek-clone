@@ -1,12 +1,15 @@
 @import "../../styles.scss";
 
 .category-section {
+  margin: 15px 0;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .category-object {
   list-style: none;
+  margin-bottom: 20px;
   a {
     text-decoration: none;
     color: $content-links;
@@ -15,7 +18,7 @@
   }
   li:last-child {
     a {
-      color: $bar-background;
+      color: $bar-text-dark2;
     }
   }
   a:hover {
@@ -26,7 +29,7 @@
   }
   p {
     position: relative;
-    top: -40px;
+    bottom: -340px;
     left: 15px;
     font-size: 1.4em;
     font-weight: 900px;
