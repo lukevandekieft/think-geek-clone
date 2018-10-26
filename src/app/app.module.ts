@@ -12,6 +12,7 @@ import { FooterBarSocialComponent } from './footer-bar-social/footer-bar-social.
 import { NavBarMainComponent } from './nav-bar-main/nav-bar-main.component';
 import { NavBarDirectoryComponent } from './nav-bar-directory/nav-bar-directory.component';
 import { ShopLinksComponent } from './shop-links/shop-links.component';
+import { ContentComponent } from './content/content.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -29,7 +30,8 @@ export const firebaseConfig = {
     FooterBarSocialComponent,
     NavBarMainComponent,
     NavBarDirectoryComponent,
-    ShopLinksComponent
+    ShopLinksComponent,
+    ContentComponent
   ],
   imports: [
     BrowserModule,

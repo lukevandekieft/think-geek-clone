@@ -1,3 +1,5 @@
+//Sass Variables
+
 $bar-background: #384245;
 $dark-background: #30383B;
 $bar-text-light: #fff;
@@ -5,12 +7,15 @@ $offset-bar-background: #dee4e7;
 $bar-text-dark: rgba(255,255,255,.35);
 $bar-text-dark2: #617179;
 $footer-links: #517DB0;
+$main-body-width: 1140px;
 
 // @mixin fontStyling() {
 //   text-transform: uppercase;
 //   font-family: 'Lato', helvetica;
 //   font-size: 11px;
 // }
+
+//Page-wide stylings
 
 * {
   margin: 0 0;
@@ -21,7 +26,6 @@ body {
   display: inline-block;
   position: absolute;
   width: 100%;
-  height: 100%;
   top: 0;
   right: 0;
   left: 0;
@@ -31,7 +35,7 @@ body {
 }
 
 app-nav-bar {
-  position: absolute;
+  position: relative;
   top: 0px;
   width: 100%;
   text-transform: uppercase;
