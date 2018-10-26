@@ -19,4 +19,15 @@
   align-items: center;
   overflow: hidden;
   z-index: 5;
+  article {
+    height: 60%;
+    border-right: solid 1px $bar-text-dark;
+  }
+  .search-bar {
+    background: $offset-light-background;
+    border-radius: 3px;
+    height: 75%;
+    width: 440px;
+    margin: 5px;
+  }
 }
