@@ -44,9 +44,9 @@ _To download & edit do the following:_
 
       $ npm install
 
-* _Compile and open webpage in developer mode._
+* _Set up local dev server and then open page at http://localhost:4200/ ._
 
-      $ npm run start
+      $ ng serve
 
 
 ## Specs
