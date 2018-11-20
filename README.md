@@ -9,14 +9,26 @@
 _What's better than yet another novelty mug gift? A novelty mug gift shaped like a Koopa shell! Think Geek is your one-stop gift shop for that special someone who you kind-of know. You may not know what you coworker **needs** but you can say with certainty what they **want**, and that thing is a snack bowl shaped like Chewbacca._
 
 _In cloning this site I'm not only paying homage to my go-to Christmas shopping hub but also testing out my chops with Angular & Firebase. Different site components will be displayed in separate components and the final product will be available to view on a site other than GH Pages. If you have any suggestions or commentary on how my use of these tools could be improved I'm all ears!_
-
-![Site Overview](src/assets/images/siterun.gif)
+<br>
+<br>
+_Clone site:_
+<br>
+<br>
+<kbd>
+  <img src="https://github.com/lukevandekieft/thinkgeek-clone/blob/master/src/assets/images/siterun.gif">
+</kbd>
+<br>
+<br>
+_Original site:_
+<br>
+<br>
+<kbd>
+  <img src="https://github.com/lukevandekieft/thinkgeek-clone/blob/master/src/assets/images/original-site.gif">
+</kbd>
 
 ## Setup/Installation Requirements
 
-_To visit finished page simply visit the following link:_
-
-          https://thinkgeek-clone.firebaseapp.com/
+_Live site is at https://thinkgeek-clone.firebaseapp.com/_          
 <br>
 <br>
 
@@ -25,13 +37,13 @@ _To download & edit do the following:_
 * _Get file from Github._
 
       $ git clone https://github.com/lukevandekieft/think-geek-clone.git
-      
+
 * _Install NPM (node package manager) as needed - instructions can be found at https://www.npmjs.com/get-npm ._
 
 * _Install necessary webpack dependencies for project._
 
       $ npm install
-      
+
 * _Compile and open webpage in developer mode._
 
       $ npm run start
