@@ -44,6 +44,17 @@ _To download & edit do the following:_
 
       $ npm install
 
+* _Create file src/app/api-keys.ts and include the following. You will need to get the API key and sender ID from me._
+
+      export const masterFirebaseConfig = {
+          apiKey: "[YOUR KEY]",
+          authDomain: "thinkgeek-clone.firebaseapp.com",
+          databaseURL: "https://thinkgeek-clone.firebaseio.com",
+          projectId: "thinkgeek-clone",
+          storageBucket: "thinkgeek-clone.appspot.com",
+          messagingSenderId: "[YOUR ID]"
+        };
+
 * _Set up local dev server and then open page at http://localhost:4200/ ._
 
       $ ng serve
