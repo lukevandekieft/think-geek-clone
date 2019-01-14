@@ -1,5 +1,7 @@
 @import "../../styles.scss";
 
+$icon-margin: 10px;
+
 .social-bar {
   background-color: $bar-background;
   display: flex;
@@ -19,7 +21,7 @@
 .social-links {
   display: flex;
   justify-content: space-between;
-  width: 310px;
+  align-content: center;
 }
 
 .social {
@@ -37,6 +39,7 @@
   i {
     margin-top: -1px;
   }
+  margin-right: $icon-margin;
 }
 
 .flexing {
@@ -44,7 +47,20 @@
   justify-content: space-between;
 }
 
+.flex-section > * {
+  margin-bottom: 10px;
+}
+
 .right-section {
   color: $bar-text-dark;
   text-align: right;
+}
+
+.store-icon {
+  width: 124px;
+  margin-right: $icon-margin;
+  height: auto;
+  img {
+    width: 100%;
+  }
 }
