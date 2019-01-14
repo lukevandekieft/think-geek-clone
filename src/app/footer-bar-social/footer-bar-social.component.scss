@@ -13,6 +13,7 @@
   margin: 0 auto;
   height: 91px;
   color: $offset-bar-background;
+  font-size: 13px;
 }
 
 .social-links {
@@ -25,14 +26,25 @@
   display: flex !important;
   align-items: center;
   justify-content: center;
+  text-decoration: none;
   height: 40px;
   width: 40px;
   border-radius: 50%;
   overflow: hidden;
   display: block;
-  color: $offset-bar-background;
+  color: white;
   background: $content-links;
-  a {
+  i {
     margin-top: -1px;
   }
+}
+
+.flexing {
+  display: flex;
+  justify-content: space-between;
+}
+
+.right-section {
+  color: $bar-text-dark;
+  text-align: right;
 }
