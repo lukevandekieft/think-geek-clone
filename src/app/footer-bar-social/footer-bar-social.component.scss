@@ -1,5 +1,7 @@
 @import "../../styles.scss";
 
+$icon-margin: 10px;
+
 .social-bar {
   background-color: $bar-background;
   display: flex;
@@ -8,26 +10,55 @@
 }
 
 .social-content {
-  max-width: $main-body-width;
-  width: 100%;
-  margin: 0 auto;
+  @include content-box;
   height: 91px;
   color: $offset-bar-background;
+  font-size: 13px;
 }
 
 .social-links {
   display: flex;
   justify-content: space-between;
-  width: 310px;
+  align-content: center;
 }
 
 .social {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
   height: 40px;
+  width: 40px;
   border-radius: 50%;
   overflow: hidden;
   display: block;
-  background: $offset-bar-background;
+  color: white;
+  background: $content-links;
+  i {
+    margin-top: -1px;
+  }
+  margin-right: $icon-margin;
+}
+
+.flexing {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-section > * {
+  margin-bottom: 10px;
+}
+
+.right-section {
+  color: $bar-text-dark;
+  text-align: right;
+}
+
+.store-icon {
+  width: 124px;
+  margin-right: $icon-margin;
+  height: auto;
   img {
-    height: 100%;
+    width: 100%;
   }
 }

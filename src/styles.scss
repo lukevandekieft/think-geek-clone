@@ -9,9 +9,15 @@ $bar-text-dark: rgba(255,255,255,.35);
 $bar-text-dark2: #617179;
 $footer-links: #517DB0;
 $content-links: #48a9e0;
-$main-body-width: 1140px;
+$main-body-width: 1170px;
+$content-margin: 15px;
 
-
+@mixin content-box {
+  width: 100%;
+  max-width: $main-body-width;
+  padding: 0 ($content-margin + 8);
+  margin: 0 auto;
+}
 //Page-wide stylings
 
 * {
@@ -22,11 +28,8 @@ $main-body-width: 1140px;
 body {
   display: inline-block;
   position: absolute;
+  min-width: $main-body-width;
   width: 100%;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
   overflow-x: hidden;
   margin: 0 auto;
   font-family: 'Lato', helvetica;
@@ -64,7 +67,6 @@ app-content-categories {
 app-footer-bar {
   position: relative;
   width: 100%;
-  bottom: 0px;
   text-transform: uppercase;
   font-size: 11px;
 }

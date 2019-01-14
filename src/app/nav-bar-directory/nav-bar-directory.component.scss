@@ -10,9 +10,7 @@
 
 .directory-content {
   height: 44px;
-  width: 100%;
-  max-width: $main-body-width;
-  margin: 0 auto;
+  @include content-box;
   display: flex;
   position: relative;
   justify-content: space-between;

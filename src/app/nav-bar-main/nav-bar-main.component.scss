@@ -10,9 +10,7 @@
 .nav-content {
   color: $bar-text-dark;
   height: 94px;
-  width: 100%;
-  max-width: $main-body-width;
-  margin: 0 auto;
+  @include content-box;
   display: flex;
   position: relative;
   z-index: 10;
