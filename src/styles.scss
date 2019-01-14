@@ -22,6 +22,7 @@ $main-body-width: 1140px;
 body {
   display: inline-block;
   position: absolute;
+  min-width: $main-body-width;
   width: 100%;
   top: 0;
   right: 0;
